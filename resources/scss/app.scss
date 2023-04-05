@@ -1,1 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
+
+@import '../views/layouts/app.blade.php';
+
+img {
+    max-width: 100%;
+  }
