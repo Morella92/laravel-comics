@@ -1,5 +1,11 @@
 @extends ('layouts.app')
 
 @section('content')
-    <h1>ciao</h1>
+    <div class="container">
+        <div class="row">
+            @foreach ($comics as $comic)
+                
+            @endforeach
+        </div>
+    </div>
 @endsection
