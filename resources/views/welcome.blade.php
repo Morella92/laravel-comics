@@ -1,12 +1,12 @@
 @extends ('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             @foreach($comics as $comic)
-                <div class="col-12 m-1">
+                <div class="col-6 mb-3">
                     <div class="card">
-                        <img src="{{ Vite::asset($comic['thumb']) }}" class="card-img-top" alt="">
+                        <img src="{{ Vite::asset($comic['thumb']) }}" class="card-img-top cardimg" alt="">
                         <div class="card-body">
                             <h5 class="card-title">{{ $comic['title'] }}</h5>
                             <p class="card-text">{{ $comic['description'] }}</p>

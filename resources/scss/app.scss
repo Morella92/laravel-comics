@@ -1,7 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 
-@import '../views/layouts/app.blade.php';
 
-img {
-    max-width: 100%;
+
+.cardimg {
+    width: 300px;
+    height: 300px;
+    margin-left: 130px;
+    margin-top: 30px;
   }
